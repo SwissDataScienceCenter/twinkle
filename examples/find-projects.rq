@@ -1,0 +1,5 @@
+PREFIX schema: <http://schema.org/>
+
+select *
+where {?id a schema:Project}
+limit 10
